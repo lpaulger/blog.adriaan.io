@@ -3,7 +3,7 @@ layout: post
 title: Ember.merge()
 ---
 
-Sometimes you want to combine (merge, union) to array's into one. Here is an example with getting the sales of a user. The API does not support an `or`-request so we have to make two requests. We then `merge` those results back into one new array.
+Sometimes you want to combine (merge, union) two array's into one. Here is an example with getting the sales of a user. The API does not support an `or`-request so we have to make two requests. We then `merge` those results back into one new array.
 
 ```js
 import DS from 'ember-data';
